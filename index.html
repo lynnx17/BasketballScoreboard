@@ -7,13 +7,23 @@
     </head>
     <body>
         <div class="container">
-            <div>
+            <div id="home">
                 <h3>HOME</h3>
-                <p class="scoren">0<p>
-            </div>
-            <div>
+                <p class="scoren" id="scorenhome">0<p>
+                <div class="plusbutton">
+                    <button onclick="plusEenHome()" class="plus" id="plus">+1</button>
+                    <button onclick="plusTweeHome()" class="plus" id="home">+2</button>
+                    <button onclick="plusDrieHome()" class="plus" id="home">+3</button>
+                </div>
+            </div>    
+            <div id="guest">
                 <h3>GUEST</h3>
-                <p class="scoren">0<p>
+                <p class="scoren" id="scorenguest">0<p>
+                  <div class="plusbutton">
+                    <button onclick="plusEenGuest()" class="plus" id="plus1">+1</button>
+                    <button onclick="plusTweeGuest()" class="plus" id="plus2">+2</button>
+                    <button onclick="plusDrieGuest()" class="plus" id="plus3">+3</button>
+                </div>
             </div>
         </div>
         <script src="index.js"></script>
