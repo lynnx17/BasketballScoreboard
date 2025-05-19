@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: "Tektur", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    gap: 5px;
+    background-color: #1B244A;
+    color: #fff;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.scoren {
+    background-color: black;
+    color: #F94F6D;
+    font-family: ;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
