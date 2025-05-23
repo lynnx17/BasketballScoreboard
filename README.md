@@ -1,3 +1,5 @@
+# basketball scoreboard
+
 📘 *This basketball scoreboard was created as solo project of Scrimba’s Frontend Developer Career Path.* 
 
 💻 **Live demo:** (https://basketbal-scorenboard.netlify.app/)
