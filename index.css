@@ -9,9 +9,7 @@ body {
 
 .container {
     font-size: 40px;
-    display: flex;
-    justify-content: space-around;
-    align-items: start;
+   
     padding: 20px;
     background-color: #4557aa;
     color: #fff;
@@ -20,6 +18,14 @@ body {
     margin: 1em 1em;
     gap: 50px;
     border: 4px solid #000000;
+}
+
+.scorenboard {
+    display: flex;
+    justify-content: space-around;
+    align-items: start; display: flex;
+    justify-content: space-around;
+    align-items: start;
 }
 
 .container h3 {
@@ -54,5 +60,15 @@ body {
     width: 30px;
     height: 30px;
     font-size: 16px;
+    cursor: pointer;
+}
+
+.resetbutton {
+    background-color: #fff;
+    border: 2px solid #000000;
+    font-size: 30px;
+    color: #F94F6D;
+    border-radius: 5px;
+    margin-top: 50px;
     cursor: pointer;
 }

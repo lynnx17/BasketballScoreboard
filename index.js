@@ -49,3 +49,10 @@ function updateHomeDisplay() {
 function saveHome() {
   scoreHomeEl.textContent = scoreHome;
 }
+
+function reset() {
+  scoreGuest = 0;
+  scoreHome = 0;
+  updateGuestDisplay();
+  updateHomeDisplay();
+}
